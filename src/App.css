@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "ds-digital";
+  src: url("../public/fonts/DS-DIGI.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 375px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 0px 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.logo {
+  font-size: 30px;
+  color: #ccc;
+}
+
+.tempoDisplay {
+  margin-top: 10px;
+  border-radius: 30px;
+  background-color: #ffc857;
+  font-size: 150px;
+  font-family: "ds-digital";
+  text-align: center;
+  color: #000;
+}
+
+.circlesContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.buttonContainer {
+}
+
+.tapSyncButton {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  background: radial-gradient(circle, #1fd653 0%, #1dc64c 75%, #158f37 100%);
+  border: none;
+  cursor: pointer;
+}
+
+.controlsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: white;
+}
+
+.toggleContainer {
+  text-align: left;
+  color: white;
+}
+
+.radioButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+}
+
+.tempoRangeContainer {
+  position: relative;
+}
+
+.tempoLine {
+  height: 8px;
+  width: 100%;
+  background: linear-gradient(90deg, #1ecc4f 0%, #cf2121 100%);
+  margin-bottom: 10px;
+}
+
+.tempoRangeLeft {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.tempoRangeRight {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 18px;
+  color: white;
+}
